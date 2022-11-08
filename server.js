@@ -4,7 +4,7 @@ let express = require("express");
 app = express();
 
 app.get("/", function(request, response) {
-  response.send("Hello there!!!");
+  response.send("Hello there!");
 });
 
 app.get("/test", function(request, response){
