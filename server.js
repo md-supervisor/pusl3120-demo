@@ -8,7 +8,7 @@ app.get("/", function(request, response) {
 });
 
 app.get("/test", function(request, response){
-  response.send("This is the test endpoint.");
+  response.send("This is the test endpoint!");
 });
 
 app.listen(port, function() {
